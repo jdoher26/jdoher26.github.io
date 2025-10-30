@@ -1,0 +1,216 @@
+* {
+    color: deeppink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(153, 136, 136, 0.7); /* Horizontal offset, vertical offset, blur radius, color */
+}
+
+/* background image pawsbones */
+body {
+    z-index: -1;
+    background-image: url(images/pawsbones.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p { 
+     text-shadow: 2px 2px 4px rgba(153, 136, 136, 0.7); /* Horizontal offset, vertical offset, blur radius, color */
+    background-color: #e2f2fb;
+}
+
+.Help {
+    text-shadow: 2px 2px 4px rgba(153, 136, 136, 0.7); /* Horizontal offset, vertical offset, blur radius, color */
+    background-color: #e2f2fb; 
+}
+.fawnfacts {
+    text-shadow: 2px 2px 4px rgba(153, 136, 136, 0.7); /* Horizontal offset, vertical offset, blur radius, color */
+    background-color: #e2f2fb; 
+}
+
+/*header and nav */
+header { 
+background-color: #e2f2fb;
+padding: 0.5px;
+width: fit-content;
+}
+/* layout container for main +sidebar */
+.content-wrapper {
+    display: flex;
+    width: fit-content;
+    flex: 1;
+    padding: 0.5rem; 
+    gap: 0.5rem; 
+    text-align: center;
+}
+/*main content */
+main { 
+flex: 2;
+background-color: #e2f2fb;
+border-radius: 2px;
+}
+/*sidebar */
+aside {
+    flex: 2.5;
+    border-radius: 5px;
+}
+/*Footer */
+footer {
+    background-color: #e2f2fb;
+    text-align: left;
+    padding: .5rem;
+}
+/*Responsive design */
+
+.prospectpark {
+    width: 75%;
+}
+.intakephoto {
+    width: 300px;
+    margin: 1em;
+}
+.duckies {
+    width: 300px;
+    margin: 1em;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+figcaption {
+  background-color: #e2f2fb;    
+  color: deeppink;
+  padding: 3px;
+  text-align: center;
+}
+
+.officegossip {
+    width: 300px;
+    margin: 1em;
+}
+
+.pumpkin {
+    float: right;
+    width: 300px;
+    margin: 1em;
+}
+.hoodie {
+    float: right;
+    width: 300px;
+    height: 300px; 
+    margin: 1em;
+}
+/* Navigation related */ 
+.top nav {
+    position: sticky;
+}
+
+* {box-sizing:border-box;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    height: 400px;
+    width: 60%;
+    position: relative;
+    margin: auto;
+    z-index: 01;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    position: relative;
+}
+/*Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right*/
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/*Caption Text*/
+.text {
+    color: deeppink;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 8px;
+    left: 50%;
+    width: 50%;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(7, 7, 7, 0.7);
+     transform: translateX(-50%); /* Centers horizontally */
+
+}
+
+/*Number text */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators*/
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.slidepics {
+    width: 60%;
+    display: block;
+    margin:  auto; 
+   
+}
+/*Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+table, th, td {
+  border: 1px solid;
+    }
+table {
+      background-color: #e2f2fb;  
+    }
